@@ -1,0 +1,16 @@
+{
+  "name": "andreaairlines",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "sirv site --dev",
+    "preview": "npx wrangler@4.151.1 dev",
+    "deploy": "npx wrangler@4.151.1 deploy"
+  },
+  "devDependencies": {
+    "sirv-cli": "3.0.1"
+  }
+}
